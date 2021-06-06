@@ -1,31 +1,34 @@
 # Covid-19-statewise-analysis
 
+# What is Covid19 ?
+Covid 19 is a diseases caused by newly discovered virus named Corona.Billions of people are affected from this across the world .The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette.
 
 # Project Introduction
-To predict the percentage of a student based on the no. of study hours using the supervised machine learning method i.e. linear regression.
+The objective of this project was to perform statewise analysis of Covid19 and to check which state is severly affected in India.
 
 # Project Link 
-https://www.kaggle.com/vaishnavi2209/covid19-analysis
-
-# Description 
-The objective of this was a prediction of the percentage of a student based on the no. of study hours by using supervised machine learning through linear regression. 
-The dataset was being provided by the company for this project. This is a simple linear regression model that involves two variable. The language prefered for this task for python & the libraries used are numpy, pandas, seaborn,matplotlib & Sk-Learn.
-The project had the following parts - 
-
-* Data Visualisation - This involved plotting the corresponding graphs between hours of study & percentage scored for which matplotlib was used. The correlation between hours and score is also found.
-
-* Preparing the Data - In this, the data is divided into attributes and labels. Furthermore, the training and testing sets are made using Scikit-Learn 
-
-* Traning Algorithm - This is the most vital part of any model. In this, the model is trained that how it has to work. After successfully training the algorithm the regression line is plotted.
-
-* Predictions - In this stage, there is a comparison between the actual values and predicted values & the graph is plotted accordingly.
-
-* Evaluating the model - This step is particularly important to compare how well different algorithms perform on a particular dataset. For simplicity, I have chosen the mean square error. There are many such metrics. Further, the classification report is generated. 
+* https://www.kaggle.com/vaishnavi2209/covid19-analysis
 
 # Tools, Technologies, and Platform used 
-Language - python
-IDE - Google Colabs
-Dataset - Kaggle
+* Language - python
+* IDE - Google Colabs
+* Dataset - Kaggle
+
+# Description 
+
+This project involved the analaysis of the situation of the pandemic caused by the covid-19 at the current date.In which statewise analysis is done for the states of India.
+Libraries like numpy,pandas,matplotlib & sk-learn were used for this purpose.
+
+The analysis is didvided into following stages - 
+* Importing Libraries & Dataset - All required libraries like numpy ,pandas,seaborn etc were imported along with te dataset.
+
+* Data Wrangling - Null value were checked by plotting heat map . Apparantly it was found that the data contains no null values.
+
+* Sorting Data- the columns which were not required were removed in this.The required columns were renamed according to the convience.Furthur more The data was sorted for the current date so that we can do analysis for the current situation pan India.Furthur for current date, data was sorted for confirm cases,death cases and cured cases. 
+
+* Data visualisation - for the above sorted data of confirm cases,deadth cases & cured cases graphs were plotted which shows the top 5 states having alarming condition in India.
+Those states were Maharashratra,karnataka ,Kerla,uttarpradesh & Tamil Nadu.After this there individual graphs were plotted for confirmed cases and deadth cases.Moreover,Data visulisation was performed for my state i.i. Madhya Pradesh as well.
+
 
 # Memebers involved
 This is an individual project.Done for enhancing the skills.
